@@ -1,6 +1,4 @@
 @media screen and (max-width: 768px) {
-main
-
     #hero-section .logo a {
         font-size: 38px;
     }
@@ -34,13 +32,14 @@ main
     }
 
     #hero-section {
-        height: 300vh;
+        height: 100vh;
         width: 100%;
     }
 
     main {
+        background: none;
         width: 100%;
-        height: 100vh;
+        min-height: 0;
     }
 
     .hero-text p {
@@ -75,7 +74,9 @@ main
     }
 
     body>footer>div {
+
         align-items: baseline !important;
+
     }
 
     body>bottom-footer>p {
@@ -166,5 +167,53 @@ main
 
     body>bottom-footer>p {
         display: none;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #section1>div {
+        width: 100%;
+        flex-direction: column;
+        height: 190vh;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #section3>div {
+        width: 100%;
+        flex-direction: column;
+        height: 190vh;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #section2>div {
+        width: 100%;
+        flex-direction: column-reverse;
+        height: 190vh;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer {
+        width: 100%;
+        height: 400vh;
+        background-color: white;
+        background-position: center;
+        background-size: cover;
+    }
+
+    main {
+        height: 500vh;
+    }
+
+    .img {
+        height: 50% !important;
     }
 }
