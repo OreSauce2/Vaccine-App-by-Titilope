@@ -1,0 +1,168 @@
+@media screen and (max-width: 768px) {
+    #hero-section .logo a {
+        font-size: 38px;
+    }
+
+    #hero-section>div>nav>div.nav-links {
+        display: none !important;
+    }
+
+    h4,
+    h3 {
+        font-size: 25px !important;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    svg {
+        width: 230px;
+    }
+
+    #hero-section .container {
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #hero-section {
+        height: 300vh;
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .hero-text p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .box {
+        width: 322.94px;
+        height: 310.98px;
+    }
+
+    #section1>div>div.box>p {
+        font-size: 9px !important;
+        width: 100%;
+    }
+
+    #section2>div>div.box>p {
+        font-size: 9px !important;
+        width: 100%;
+    }
+
+    #section3>div>div.box>p {
+        font-size: 9px !important;
+        width: 100%;
+    }
+
+    footer {
+        background-color: white;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    body>footer>div {
+        align-items: baseline !important;
+    }
+
+    body>bottom-footer>p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #hero-section .logo a {
+        font-size: 38px;
+    }
+
+    #hero-section>div>nav>div.nav-links {
+        display: none !important;
+    }
+
+    h4,
+    h3 {
+        font-size: 25px !important;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    svg {
+        width: 230px;
+    }
+
+    #hero-section .container {
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #hero-section {
+        height: 100vh;
+        width: 100%;
+    }
+
+    main {
+        background: none;
+        width: 100%;
+        min-height: 0;
+    }
+
+    .hero-text p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .box {
+        width: 322.94px;
+        height: 310.98px;
+    }
+
+    #section1>div>div.box>p {
+        font-size: 9px !important;
+        width: 100%;
+    }
+
+    #section2>div>div.box>p {
+        font-size: 9px !important;
+        width: 100%;
+    }
+
+    #section3>div>div.box>p {
+        font-size: 9px !important;
+        width: 100%;
+    }
+
+    footer {
+        background-color: white;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    body>footer>div {
+
+        align-items: baseline !important;
+
+    }
+
+    body>bottom-footer>p {
+        display: none;
+    }
+}
