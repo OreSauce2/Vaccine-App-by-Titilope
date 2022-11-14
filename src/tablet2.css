@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     #hero-section .logo a {
         font-size: 38px;
     }
@@ -84,7 +84,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     #hero-section .logo a {
         font-size: 38px;
     }
@@ -174,46 +174,180 @@
     #section1>div {
         width: 100%;
         flex-direction: column;
-        height: 190vh;
+        height: 140vh;
         display: flex;
         margin: 0 auto;
         align-items: center;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: space-around;
     }
 
     #section3>div {
         width: 100%;
         flex-direction: column;
-        height: 190vh;
+        height: 140vh;
         display: flex;
         margin: 0 auto;
         align-items: center;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: space-around;
     }
 
     #section2>div {
         width: 100%;
         flex-direction: column-reverse;
-        height: 190vh;
+        height: 140vh;
         display: flex;
         margin: 0 auto;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     footer {
         width: 100%;
-        height: 400vh;
+        height: 100vh;
         background-color: white;
         background-position: center;
         background-size: cover;
+
     }
 
     main {
-        height: 500vh;
+        height: 450vh;
     }
 
-    .img {
-        height: 50% !important;
+    .img, svg  {
+        height: 100% !important;
+        /* margin: auto; */
+    }
+
+    #section1 > div > div.img{
+        height: 60vh !important;
+    }
+    #section2 > div > div.img{
+        height: 60vh !important;
+    }
+    #section3 > div > div.img{
+        height: 60vh !important;
+    }
+
+    body > footer > div > div.socials{
+        display: none;
+    }
+
+    body > footer > div{
+        height: 100%;
+    }
+
+    body > footer > div > div.brand{
+        width: 50% !important;
+    }
+
+    body > footer > div > div.brand > p{
+        font-size: 10px !important;
+    }
+
+    footer .container{
+        padding-top: 50px;
+    }
+
+    .hero-text {
+        margin-top: 15px;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 375px) {
+    #section1>div {
+        width: 100%;
+        flex-direction: column;
+        height: 140vh;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #section3>div {
+        width: 100%;
+        flex-direction: column;
+        height: 140vh;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #section2>div {
+        width: 100%;
+        flex-direction: column-reverse;
+        height: 140vh;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    footer {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    main {
+        height: 450vh;
+    }
+
+    .img, svg  {
+        height: 100% !important;
+        /* margin: auto; */
+    }
+
+    #section1 > div > div.img{
+        height: 60vh !important;
+    }
+    #section2 > div > div.img{
+        height: 60vh !important;
+    }
+    #section3 > div > div.img{
+        height: 60vh !important;
+    }
+
+    body > footer > div > div.socials{
+        display: none;
+    }
+
+    body > footer > div{
+        height: 100%;
+    }
+
+    body > footer > div > div.brand{
+        width: 50% !important;
+    }
+
+    body > footer > div > div.brand > p{
+        font-size: 10px !important;
+    }
+
+    footer .container{
+        padding-top: 50px;
+    }
+
+    .hero-text {
+        margin-top: 15px;
+        width: 80%;
+    }
+
+    .box {
+        width: 280px;
+        height: 280px;
+    }
+
+    #hero-section > div > div > p{
+        font-size: 15px !important;
     }
 }
