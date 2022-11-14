@@ -195,6 +195,57 @@
     body>footer>div>div.brand {
         width: 55%;
     }
+}
+
+@media screen and (max-width: 375px) {
+    body>footer {
+        display: none;
+    }
+
+    #hero-section>div>div>div.text>p {
+        display: none;
+    }
+
+    #hero-section>div>div>div.img>svg>rect {
+        width: 80%;
+        height: 80%;
+        margin-right: -100px;
+    }
+
+    #feedback>div {
+        flex-direction: column;
+    }
+
+    #feedback {
+        background: none;
+        min-height: 150vh;
+    }
+
+    #feedback>div>div.left {
+        width: 100%;
+    }
+
+    #feedback>div>div.right {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    #feedback>div>div.right>p {
+        width: 100%;
+    }
+
+    body>footer>div>div.socials {
+        display: none;
+    }
+
+    body>footer>div {
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    body>footer>div>div.brand {
+        width: 55%;
+    }
 
 
 }
