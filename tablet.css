@@ -168,7 +168,9 @@
 }
 
 @media screen and (max-width: 769px) {
-
+    #features .container {
+        background: none;
+    }
 
     #hero-section .container {
         width: 85%;
@@ -207,6 +209,10 @@
         height: auto;
     }
 
+    #features>div>div:nth-child(3)>button {
+        display: none;
+    }
+
     p {
         font-size: 14px !important;
     }
@@ -238,7 +244,7 @@
 
     #features .card-content {
         width: 196.24px;
-        height: 131.22px;
+        height: 111.22px;
     }
 
     #features>div>div.cards>div>h4 {
@@ -887,11 +893,6 @@
     body>bottom-footer {
         display: none;
     }
-
-    .sm-none {
-        display: none;
-    }
-
 
     body>footer>div>div.brand>p {
         font-size: 11px;
